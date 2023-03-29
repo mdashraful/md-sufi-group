@@ -206,7 +206,7 @@ body {
 
 .h2,
 .h3 {
-  color: var(--white);
+  /* color: var(--white); */
   font-family: var(--ff-barlow);
   font-weight: var(--fw-600);
   line-height: 1.3;
@@ -306,7 +306,7 @@ body {
 .rotate-img { display: none; }
 
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../images/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -881,11 +881,11 @@ textarea.contact-input {
   }
 
   .elem-1 {
-    top: 20px;
+    bottom: 20px;
     left: -130px;
   }
 
-  .elem-1 .elem-title { color: var(--vivid-sky-blue); }
+  .elem-1 .elem-title { color: var(--fiery-rose); }
 
   .elem-2 {
     bottom: 30px;
@@ -909,11 +909,11 @@ textarea.contact-input {
   .elem-3 {
     top: -40px;
     right: -30px;
+    height: 75px;
   }
 
-  .elem-3 ion-icon {
-    color: var(--minion-yellow);
-    font-size: 6rem;
+  .elem-3 img {
+    width: 100%;
   }
 
   .rotate-img {
